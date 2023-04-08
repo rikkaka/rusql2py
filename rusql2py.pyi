@@ -1,0 +1,6 @@
+from typing import Union, Sequence, Any
+
+def connect(db_name: str) -> Connection: ...
+
+class Connection():
+    def execute(self, sql: str, params: Sequence[Any] = []) -> None: ...
