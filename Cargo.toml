@@ -8,6 +8,7 @@ edition = "2021"
 [lib]
 name = "rusql2py"
 rusqlite = { version = "0.29.0", features = ["bundled"] }
+crate-type = ["cdylib"]
 
 [dependencies]
 rusqlite = "0.29.0"
