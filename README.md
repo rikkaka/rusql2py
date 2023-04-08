@@ -8,9 +8,4 @@ pip install maturin
 maturin develop
 ```
 Then rusql2py is installed as a py module.
-```py
-import rusql2py
-
-conn = rusql2py.connect("test.db") 
-conn.execute("CREATE TABLE test (id INTEGER PRIMARY KEY, name TEXT)", [])
-```
+![[test.py]]
