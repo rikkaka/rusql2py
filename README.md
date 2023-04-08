@@ -8,4 +8,4 @@ pip install maturin
 maturin develop
 ```
 Then rusql2py is installed as a py module.
-![[test.py]]
+[test.py]
